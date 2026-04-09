@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<html> 
+ <head> 
+ <meta charset=utf-8"> 
+<title>Malik_z9</title>
+ </head> 
+	  <body>
+	  
+	  <OL TYPE=1 START=1>  
+	  <!-- Temat: Opis stylu zewnętrznego.  --> 
+        <h1><LI>Składnia teoretyczna otoczony ramką (może być tabela jedno komórkowa, 
+		konieczne wcięcia).  </h1><br>
+		
+<textarea cols="70" rows="5">
+   <head> 
+	(...) 
+	<link rel="Stylesheet" type="text/css" href="style.css" /> 
+	(...) 
+   </head></textarea>
+		
+	<h1><LI> Gdzie wstawiany jest  styl zewnętrzny, jaki znacznik jest za to odpowiedzialny oraz 
+		ile razy może on występować w dokumencie, jakopodłączenie stylu CSS?   </h1><br>
+		
+		<p>  Styl zewnętrzny wstawiany jest w sekcji &lt;head&gt; <br>Odpowiada za to znacznik &lt;link rel="stylesheet" href="style.css"&gt; <br> Oraz może występować wielokrotnie (podłączenie kilku plików css jest możliwe)    </p><br>
+		
+	<h1><LI> Jak jest najprostsza forma wstawiania stylu zewnętrznego  otoczony ramką (może 
+		być tabela jedno komórkowa?   </h1><br>
+		
+<textarea cols="70" rows="1">
+  <link rel="Stylesheet" type="text/css" href="style.css" /> </textarea>
+		
+	<h1><LI> Ile arkuszy styli może być dołączanych do jednego dokumentu HTML oraz jaka z zasad 
+		musi być zachowana przy większej ilości dołączanych styli?  </h1><br>
+		
+		<p>  Do jednego dokumentu można dołączyć dowolną ilość arkuszy zewnętrznych ale każdy arkusz musi miec osobny element &lt;link rel="Stylesheet" /&gt;</p><br>
+		
+	<h1><LI> Co się dzieje w przypadku konfliktów? Przez konflikt rozumiemy, gdy te same style 
+		są definiowane w różnych arkuszach styli podłączone do tego samego arkusza. </h1><br>
+		
+		<p>  W przypadku konfliktów, ważniejsze będą deklaracje z arkusza dołączonego później.   </p><br>
+		
+	<h1><LI> Jak są tworzone i edytowane pliki arkuszy z użyciem edytora tekstowego?   </h1><br>
+		
+		<p>   Utwórz plik tekstowy i zapisz ten plik z rozszerzeniem ".css" np. "style.css"   </p><br>
+		
+	<h1><LI> Jak są tworzone i edytowane pliki arkuszy z użyciem specjalnego edytora CSS?  </h1><br>
+		
+		<p>  Tworzy się je w edytorze kodu (np. Notepad++) i zapisuje się je w formacie css edytor pomaga podświetlając składnie, podpowiadaniem w kodzie i wykrywaniem błędów    </p><br>
+		
+	<h1><LI> Jakie rozszerzenie posiadają plik będący zewnętrznym arkuszem styli?   </h1><br>
+		
+		<p>   .css   </p><br>
+
+	<h1><LI> Jakie są zalety zewnętrznego arkusza styli( dwie – z użyciem wyliczenia?   </h1><br>
+		
+		<OL TYPE=1 START=1>  
+		<li>   wszystkie nasze strony w obrębie całego serwisu mogą mieć pewne wspólne cechy.    </li><br>		
+		<li>    jeśli w ostatniej chwili zdecydujemy się zmienić np. rodzaj czcionki na wszystkich 
+stronach, możemy to zrobić, modyfikując jedynie zewnętrzny arkusz stylów, bez 
+konieczności zmiany każdej strony osobno.   </li><br>
+		</OL> 
+		
+	<h1><LI> Uwagi na temat pisania w CSS.    </h1><br>
+		
+		 <u>Uwaga1</u><br/>
+            Język CSS dopuszcza stosowanie zarówno dużych, jak i małych liter.  
+Poprawnymi nazwami atrybutu są background, backGROUND oraz BACKground. <br>
+            <u>Uwaga2</u><br>
+            Wstawienie białych znaków (spacje, tabulacje, znaki nowej linii) w arkuszu CSS nie ma 
+wpływu na jego działanie. <br>
+            <u>Uwaga3</u><br>
+            Dlatego możesz ułożyć wpisywane reguły CSS w taki sposób, aby były bardziej czytelne np.<br>
+            <table border=1 style="border-collapse:collapse; margin-top:4px;">
+                <tr>
+                    <td width="300px">h1 {<br>
+                        font-weight : bold;<br>
+                        }<br>
+                       </td>
+                    <td width="300px">
+                        możemy zapisać 
+                    </td>
+                    <td width="300px">h1{font-weight:bold;}</td>
+                </tr>
+            </table>
+            <u>Uwaga4:</u><br>
+            <b>Komentarze w arkuszu stylów</b><br>
+            pisze się używając znaków: /* (otworzenie komentarza) oraz */ (zamknięcie komentarza),
+np.: /*to jest komentarz*/.
+Wszystko pomiędzy tymi znakami jest ignorowane przez przeglądarkę. <br>
+            <u>Uwaga5</u><br>
+            Część poleceń stylów CSS nie sa interpretowane przez niektóre przeglądarki internetowe lub 
+jest obsługiwana odmiennie. Dlatego zawsze należy sprawdzać efekty w praktyce - jeśli to 
+możliwe, to najlepiej w kilku najbardziej popularnych przeglądarkach: Microsoft Internet 
+Explorer, Netscape/Mozilla/Firefox (czyli przeglądarki oparte na silniku Gecko), Opera. 
+
+		<!--  Voitiuk_z9  --> 
+      </body> 
+</html> 

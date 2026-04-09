@@ -1,0 +1,33 @@
+p#pogrubienie_voitiuk{
+    font-weight: bold;
+    color: #E01FD4;
+    font-size: 33px;
+}
+p#pochylona_voitiuk{
+    font-style: italic;
+    font-size: 38pt;
+    color: #EAC8850;
+}
+p#index_gorny_voitiuk{
+    wertical-align: super;
+    font-size: 1.3cm;
+    color: #FD81C4;
+}
+p#index_dolny_voitiuk{
+    wertical-align: sub;
+    font-size: 2.1cm;
+    color: #3F2B717;
+}
+p#mono_voitiuk{
+    font-family: monospace;
+    font-size: 43px;
+    color: #3ADEF2;
+}
+p#powiekszenie_voitiuk{
+    font-size: larger; 
+    color: #935F32;
+}
+p#pomniejszenie_voitiuk{
+    font-size: smaller;
+    color: rgb(96%, 58%, 23%);
+}

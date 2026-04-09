@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="pl-PL">
+<html> 
+ <head> 
+ <meta charset=utf-8"> 
+<title>Voitiuk_z7</title>
+ </head> 
+	  <body> 
+	  <OL TYPE=1 START=1>  
+        <h1><LI>Na co pozwala styl lokalny, który element będzie formatowany z użyciem stylu 
+		lokalnego, </h1><br>
+		
+		<p> Styl lokalny pozwala na nadanie formatowania konkretnemu pojedynczemu elementowi 
+			strony. Jest wstawiany w tej samej linii, w której znajduje się element formatowany.  
+			O tym, który to będzie element, decyduje słowo kluczowe "selektor".  </p><br>
+		
+		<h1><LI>Składnia teoretyczna ( z użyciem ramki otaczającej→ może być tabela  o jednej 
+		komórce, zastosuj „znaki specjalne” do napisania definicji stylu lokalnego tak aby 
+		instrukcja CSS nie wykonywała się a tylko wyświetlała  wewnątrz ramki [&nbsp;
+		spacja niełamana] przykład „znaku specjalnego”), </h1><br>
+       <style>
+            .maly-tekst {
+                font-size: 12px;
+                /* Opcjonalnie: ustawienie czcionki, która zajmuje mniej miejsca */
+                font-family: Arial, sans-serif;
+             }
+        </style>
+	
+		<textarea cols="80" rows="3">  
+   <selektor style="cecha1: wartość1; cecha2: wartość2...">...</selektor> 
+		</textarea><br>
+		lub<br>
+		<textarea cols="80" rows="3">  
+   <selektor style="nasze style">treść bloku</selektor>
+		</textarea>
+		
+		<h1><LI>Co może być selektorem, </h1><br>
+		
+		<p>   Selektorem może być praktycznie dowolny znacznik, np. p (akapit), h1 (nagłówek), td 
+			 (komórka tabeli) i inne.   </p><br>
+		
+		<h1><LI>Co wipisujemy jako "cechę". Jakie jest znaczenie średników, </h1><br>
+		
+		<p>   „Cecha” to właściwość CSS (np. color, font-size), a średniki oddzielają kolejne deklaracje.   </p><br>
+		
+		<h1><LI>Co wipisujemy jako "wartość" (w deklaracji stylu).</h1><br>
+		
+		<p>   Jako wyraz "wartość" (w deklaracji stylu) wpisujemy dokładną wartość atrybutu (np. dla 
+			  koloru tekstu będzie to: red, blue czy też #31F4A5 itd.). Wartość zależy ściśle od cechy, po 
+			  której stoi w deklaracji.     </p><br>
+		</OL> 
+		<!--  Voitiuk_z7  --> 
+      </body> 
+</html> 
